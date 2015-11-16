@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <LinearLayout
+            android:id="@+id/l_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:orientation="horizontal" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/l_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ff5500"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/l_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#ff5"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/l_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#aaaaaa"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/l_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#115500"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/l_6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#aaaaaa"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/l_7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ff5"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/l_8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ff5500"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/l_9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ff0000"/>
+        <Button
+            android:layout_weight="1"
+            android:text="START"
+            android:id="@+id/st"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CORRECT"/>
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>
